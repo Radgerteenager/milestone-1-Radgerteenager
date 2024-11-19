@@ -1,0 +1,218 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header Section */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav .logo {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+nav .nav-links {
+  display: flex;
+}
+
+nav .nav-links a {
+  text-align: right;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+nav .nav-links a:hover {
+  color: #f1c40f; /* Yellow color on hover */
+}
+
+.section-title1 {
+  text-align: justify;
+  text-align: center;
+  color: #2c3e50;
+  background-color: #222222;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 48px;
+  background-image: url("/milestone-1-Radgerteenager/ASSETS/IMG_0439\ 2.jpg");
+  background-position: top center;
+  background-size: cover;
+}
+/* Main Content Section */
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.text-center {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 50px;
+  color: #2c3e50;
+}
+
+
+.section-title {
+  text-align: center;
+  font-size: 40px;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+/* Tour Cards Section */
+.tour-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.tour-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.tour-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.tour-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.tour-card-content {
+  padding: 20px;
+}
+
+.tour-card h3 {
+  font-size: 24px;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.tour-card p {
+  font-size: 16px;
+  color: #7f8c8d;
+  margin-bottom: 15px;
+}
+
+.tour-card a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #2980b9;
+}
+
+.tour-card a:hover {
+  color: #f39c12;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  /* Header */
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  nav .nav-links a {
+    margin: 5px 0;
+  }
+
+  /* Tour Cards */
+  .tour-cards {
+    grid-template-columns: 1fr; /* Stack the cards vertically on mobile */
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  /* Main Text */
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Header */
+  nav .logo {
+    font-size: 24px;
+  }
+
+  /* Tour Cards */
+  .tour-card h3 {
+    font-size: 24px;
+  }
+
+  .tour-card p {
+    font-size: 16px;
+  }
+}
+
+.tour-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.tour-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
