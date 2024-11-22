@@ -1,6 +1,6 @@
-# Drawing Class Website
+# Mano Travel Webssite
 
-This website is a responsive website built with HTML and CSS. Its about hand drawing class called Stroke By Sasa. 
+This website is a responsive website built with HTML and CSS. Its about Travel Agency called Mano Travel. 
 
 ## Table of Contents
 
