@@ -44,6 +44,11 @@
           <div class="tour-card-content">
             <h3>Bali-Lombok 8 Days</h3>
             <p>Explore the beautiful beaches, temples, and cultural experiences in Bali.</p>
+            <ul>
+              <li>Snorkling</li>
+              <li>Hotel</li>
+              <li>bike</li>
+            </ul>
             <a href="#bali-details">Learn More</a>
           </div>
         </div>
@@ -54,8 +59,14 @@
           <div class="tour-card-content">
             <h3>Lombok-Gili-T 12 Days</h3>
             <p>Enjoy the stunning beaches, mountains, and waterfalls in Lombok.</p>
+            <ul>
+              <li>Snorkling</li>
+              <li>Hotel</li>
+              <li>bike</li>
+            </ul>
             <a href="#lombok-details">Learn More</a>
           </div>
+          
         </div>
 
         <!-- Flores Tour -->
@@ -64,11 +75,95 @@
           <div class="tour-card-content">
             <h3>Bali-Lombok-Flores 18 Days</h3>
             <p>Discover the unique culture and breathtaking landscapes of Flores.</p>
+            <ul>
+              <li>Snorkling</li>
+              <li>Hotel</li>
+              <li>bike</li>
+            </ul>
             <a href="#flores-details">Learn More</a>
           </div>
         </div>
       </div>
     </section>
+
+    <section id="form-section">
+      <h2>Join our Trip!</h2>
+      <form action="#">
+        <fieldset>
+          <legend>Personal Data:</legend>
+          <div>
+            <label for="fullName">Full Name:</label>
+            <input id="fullName" type="text" required />
+          </div>
+
+          <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" required />
+          </div>
+
+          <div>
+            <label for="dob">Date of Birth</label>
+            <input
+              type="date"
+              id="dob"
+              name="trip-start"
+              value="2018-07-22"
+            />
+          </div>
+          
+          <div>
+            <label for="doa">Date of availibility</label>
+            <input
+              type="date"
+              id="dob"
+              name="trip-start"
+              value="2018-07-22"
+            />
+          </div>
+
+          <div>
+            <p>Are you living in Indonesia?</p>
+            <input type="radio" id="yes" name="isIndonesia" value="Male" />
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="isIndonesia" value="Female" />
+            <label for="no">No</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Additional information:</legend>
+          <div>
+            <p>Which Trip you want to join?</p>
+            <input
+              id="Bali-Lombok 8 Days"
+              type="checkbox"
+              name="personality"
+              value="Bali-Lombok 8 Days"
+            />
+            <label for="Bali-Lombok 8 Days">Bali-Lombok 8 Days</label>
+            <input
+              id="Lombok-Gili-t 12 Days"
+              type="checkbox"
+              name="personality"
+              value="Lombok-Gili-t 12 Days"
+            />
+            <label for="Lombok-Gili-t 12 Days">Lombok-Gili-t 12 Days</label>
+            <input
+              id="Bali-Lombok-Flores 18 Days"
+              type="checkbox"
+              name="personality"
+              value="Bali-Lombok-Flores 18 Days"
+            />
+            <label for="Bali-Lombok-Flores 18 Days">Bali-Lombok-Flores 18 Days</label>
+          </div>
+          <div>
+            <p>Tell us why you choose this trip</p>
+            <textarea rows="3"></textarea>
+          </div>
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
 
   </main>
 
