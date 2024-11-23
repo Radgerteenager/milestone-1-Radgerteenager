@@ -51,32 +51,32 @@ This website is a responsive website built with HTML and CSS. Its about Travel A
 
 ### 1. **Log in to Netlify and Deploy the project with Github**
    - go to Netlify and log-in with your account, and after log in to netlify you can click on *add new site** and import to an existing project. and then after that you can choose to deploy you project with github.
-      ![**log in and deploy with github**]()
+   ![Repository](/README%20ASSET/IMG_0444.PNG)
+   ![Repository](/README%20ASSET/IMG_0445.PNG)
+
 ### 2. **Select Repository**
-   - 3 After Authorized you can go to choose repository that you wanted to deploy.
-      ![Repository](/README%20ASSET/IMG_4939.HEIC)
+   - After Authorized you can go to choose repository that you wanted to deploy.
+      ![Repository](/README%20ASSET/IMG_0446.PNG)
 
 ### 3. **Configure site and deploy**
    - After you choosed repository you will be automatically directed to configure site and deploy section. you can put your website name on the site name section and deploy it.
-      ![Configure site and deploy](/README%20ASSET/IMG_4940.HEIC)
-      ![Configure site and deploy](/README%20ASSET/IMG_4941.HEIC)
+      ![Configure site and deploy](/README%20ASSET/IMG_0447.PNG)
+      
 
 ### 4. **Buy domain add Niagahoster**
    - Go to niagahoster.co.id and login. After login go to domain section and click on "Miliki Domain Baru". after that you must input your website name. they will verify it. if no one use your website name, they will give you the price of your website name. just follow thru the transaction and boom you have your domain now.
-      ![card package](/README%20ASSET/IMG_4943.HEIC)
+      ![card package](/README%20ASSET/IMG_0449.PNG)
 
 ### 5. **Set custom domain**
    - after deploying your site, you will directed to site overview page. you can click on set up a custom domain and add your custom domain website name. put the domain name that you bought at Niagahoster
-      ![**hover**](/README%20ASSET/IMG_4942.HEIC)
+      ![**hover**](/README%20ASSET/IMG_0448.PNG)
 
 ### 6. **Sync name Server on Netlivy to Niagahoster**
    - go to domain management and click on options drop down button and choose "go to DNS Panel", after scrol down a bit and you will find name server section. Copy those 4 name server and paste on Niagahoster name server (it will be in your domain and go to DNS/Name server section)
-      ![card package](/README%20ASSET/IMG_4944.HEIC)
-      ![card package](/README%20ASSET/IMG_4945.HEIC)
-      ![card package](/README%20ASSET/IMG_4947.HEIC)
+      ![card package](/README%20ASSET/IMG_0451.PNG)
+      ![card package](/README%20ASSET/IMG_0452.PNG)
+      ![card package](/README%20ASSET/IMG_0453.PNG)
 
 
-### 3. **BOOM PEOPLE CAN SEE YOUR SITE NOW**
-   - A form for visitor to fill about which trip will they choose.
-    [Mano Travel](manotravel.site)
-
+### 7. **BOOM PEOPLE CAN SEE YOUR SITE NOW**
+[Mano Travel](manotravel.site)
